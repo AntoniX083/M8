@@ -10,7 +10,7 @@ climate_terms = {
     "Carbon dioxide": "Dwutlenek węgla",
     "Fossil fuels": "Paliwa kopalne",
     "Exhaust emissions": "Emisja spalin",
-    "Deforestation": "Wylesianie / Deforestacja",
+    "Deforestation": "Deforestacja",
     "Carbon footprint": "Ślad węglowy",
     "Renewable energy sources": "Odnawialne źródła energii",
     "Sustainable development": "Zrównoważony rozwój",
