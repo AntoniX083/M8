@@ -1,0 +1,22 @@
+climate_terms = {
+    "Global warming": "Globalne ocieplenie",
+    "Climate change": "Zmiana klimatu",
+    "Greenhouse effect": "Efekt cieplarniany",
+    "Melting of glaciers": "Topnienie lodowców",
+    "Sea level rise": "Wzrost poziomu mórz",
+    "Extreme weather events": "Ekstremalne zjawiska pogodowe",
+    "Drought": "Susza",
+    "Greenhouse gases": "Gazy cieplarniane",
+    "Carbon dioxide": "Dwutlenek węgla",
+    "Fossil fuels": "Paliwa kopalne",
+    "Exhaust emissions": "Emisja spalin",
+    "Deforestation": "Wylesianie / Deforestacja",
+    "Carbon footprint": "Ślad węglowy",
+    "Renewable energy sources": "Odnawialne źródła energii",
+    "Sustainable development": "Zrównoważony rozwój",
+    "Energy efficiency": "Efektywność energetyczna",
+    "Carbon neutrality": "Neutralność węglowa",
+    "Environmental protection": "Ochrona środowiska",
+    "Biodiversity": "Bioróżnorodność",
+    "Recycling": "Recykling"
+}
