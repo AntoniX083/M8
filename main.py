@@ -4,9 +4,27 @@ import speech_recognition as sr
 from googletrans import Translator
 import asyncio
 from data import climate_terms
+from data import random_fact
 import random
 import time
 points = 0
+
+
+
+print("Wczytywanie.")
+time.sleep(1.5)
+print("Wczytywanie..")
+time.sleep(1.5)
+print("Wczytywanie...")
+time.sleep(2)
+print("ciekawosta: " + random.choice(list(random_fact)))
+time.sleep(2)
+print("Wczytywanie.")
+time.sleep(1.5)
+print("Wczytywanie..")
+time.sleep(1.5)
+print("Wczytywanie...")
+time.sleep(2)
 
 def check_voice():
     duration = 5 # sekundy nagrania
@@ -36,17 +54,24 @@ def check_voice():
     except sr.RequestError as e:
         print(f"❗ Błąd usługi: {e}")
 
-for i in range(3):
-    random_phrase = random.choice(list(climate_terms.keys()))
-    print("Przetłumacz na język angielski: " + random_phrase)
-    time.sleep(2.5)
-    user_voice = check_voice()
-    if user_voice is not None and random_phrase.lower() == user_voice.strip().lower():
-        print("Dobra odpowiedź")
-        points += 1
-    else:
-        print("Zła odpowiedź")
+start = input("Napisz " + "start" + " aby rozpocząć >>> ")
+time.sleep(2)
 
-    del climate_terms[random_phrase]
+if start.lower() == "start":
+    for i in range(5):
+        random_phrase = random.choice(list(climate_terms.keys()))
+        print("Przetłumacz na język angielski: " + random_phrase)
+        time.sleep(2.5)
+        user_voice = check_voice()
+        if user_voice is not None and random_phrase.lower() == user_voice.strip().lower():
+            print("Dobra odpowiedź")
+            points += 1
+        else:
+            print("Zła odpowiedź")
 
-print("Zdobyte punkty: " + str(points))
+        del climate_terms[random_phrase]
+    print("Zdobyte punkty: " + str(points))
+
+else:
+    pass
+
