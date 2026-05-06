@@ -22,14 +22,14 @@ climate_terms = {
 }
 
 random_fact = [
-    "Ich skóra jest czarna, mimo że futro wygląda na białe.",
-    "Futro jest przezroczyste i odbija światło.",
-    "Świetnie pływają i mogą przepłynąć setki kilometrów.",
-    "Mają bardzo dobry węch.",
-    "Żyją w Arktyce.",
-    "Ich łapy pomagają nie zapadać się w śniegu.",
-    "Są największymi drapieżnikami lądowymi.",
-    "Potrafią zamykać nozdrza podczas pływania.",
-    "Jedzą głównie foki.",
-    "Mają grubą warstwę tłuszczu chroniącą przed zimnem."
+    "Skóra misiów polarnych jest czarna, mimo że futro wygląda na białe.",
+    "Futro misiów polarnych jest przezroczyste i odbija światło.",
+    "Misie polarne świetnie pływają i mogą przepłynąć setki kilometrów.",
+    "Misie polarne mają bardzo dobry węch.",
+    "Misie polarne żyją w Arktyce.",
+    "Łapy misiów polarnych pomagają nie zapadać się w śniegu.",
+    "Misie polarne są największymi drapieżnikami lądowymi.",
+    "Misie polarne potrafią zamykać nozdrza podczas pływania.",
+    "Misie polarne jedzą głównie foki.",
+    "Misie polarne mają grubą warstwę tłuszczu chroniącą przed zimnem."
 ]
