@@ -3,7 +3,7 @@ import scipy.io.wavfile as wav
 import speech_recognition as sr
 from googletrans import Translator
 import asyncio
-from data import climate_terms
+from data import polar_bear_terms
 from data import random_fact
 import random
 import time
@@ -59,7 +59,7 @@ time.sleep(2)
 
 if start.lower() == "start":
     for i in range(5):
-        random_phrase = random.choice(list(climate_terms.keys()))
+        random_phrase = random.choice(list(polar_bear_terms.keys()))
         print("Przetłumacz na język angielski: " + random_phrase)
         time.sleep(2.5)
         user_voice = check_voice()
@@ -69,7 +69,7 @@ if start.lower() == "start":
         else:
             print("Zła odpowiedź")
 
-        del climate_terms[random_phrase]
+        del polar_bear_terms[random_phrase]
     print("Zdobyte punkty: " + str(points))
 
 else:
